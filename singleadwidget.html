@@ -3,7 +3,7 @@
 <head><style type="text/css">.lw { font-size: 60px; }
 
 body{
-  font: 17.5 tahoma,arial,"Hiragino Sans GB",微软雅黑,sans-serif;
+  font: 17.5 tahoma,arial,"Hiragino Sans GB",sans-serif;
 }
 
 hr{
@@ -12,59 +12,97 @@ hr{
 
 
 .source{
-  font: 11px/1.5 tahoma,arial,"Hiragino Sans GB",微软雅黑,sans-serif;
   color: #69665C;
+  padding-top: 7px;
+  font-family:Montserrat-Light;
+font-size:10px;
+color:#797f7f;
+letter-spacing:0.16px;
+line-height:12px;
+text-align:left;
 }
 
-img{
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
 
 .productname{
-  font: 20px Arial, tahoma,arial,"Hiragino Sans GB",sans-serif;
-  font-weight: 400;
-  overflow: auto;
-  line-height: 16.5px;
+  font-family:Montserrat-Light;
+font-size:18px;
+color:#494d55;
+letter-spacing:0.3px;
+line-height:25px;
+text-align:left;
+padding-bottom: 20px;
 }
 
 .box {
-  width: 350px;
+  width: 300px;
   max-width: 300px;
-  height: 400px;
-  max-height: 400px;
+  height: 460px;
+  max-height: 460px;
   padding: 10px;
-  border: 2px solid gray;
-  border-radius: 10px;
+  border: 2px solid #EFEFEF;
+
+box-shadow:0px 1px 4px 0px #dbdbdb;
+
+ 
 }
 
+.innerbox {
+  width: 267px;
+  max-width: 267px;
+  height: 299px;
+  max-height: 299px;
+  border: 2px solid #EFEFEF;
+  padding: 16px;
+ 
+}
 
+.innerboximg {
+  
+  padding-top: 75px;
+  padding-bottom: 75px;
+  padding-left: 16px;
+  padding-right: 16px;
+ 
+}
 
 
 
 button{
     margin-left: 25%;
     border: 1px solid #FFD12A;
-    padding: 10px 40px; 
-    background: #FFF;
-    border-radius: 25px;
-}</style>
+    width: 115px;
+    height: 31px;
+    color: #FFD12A;
+
+    background:#ffffff;
+border-radius:100px;
+width:115px;
+height:31px;
+
+}
+
+hr{
+ background:#dbdbdb;
+ width:268px;
+ height:1px;
+}
+
+</style>
 
 
-<title>HTML5, CSS3 and JavaScript demo</title>
 </head>
 <body>
 <!-- Start your code here -->
   <div class="box">
-    <div>
+    <div class="innerbox">
       
-      <img src="http://i-cdn.phonearena.com/images/articles/224689-image/Samsung-Galaxy-S7-Edge-concept.jpg" height="200" width="300">
+      <img class="innerboximg" src="http://i-cdn.phonearena.com/images/articles/224689-image/Samsung-Galaxy-S7-Edge-concept.jpg" height="151" width="226">
       
       
       <p class="source">on Jumia Nigeria</p>
-      <p class="productname">Infinix Zero 2</p>
-  <hr>       
-      <div>
+      <div class="productname">Infinix Zero 2</div>
+      <hr>       
+      <div style="font-family:Montserrat-Light;font-size:14px;color:#101010;letter-spacing:0.23px;line-height:17px;text-align:left;">
        
         N15000
         <button>Shop Now</button>
